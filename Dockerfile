@@ -3,7 +3,7 @@ WORKDIR /pythonProject2
 
 COPY main.py /pythonProject2/main.py
 
-RUN pip install pymongo uvicorn fastapi
+RUN pip install pymongo uvicorn fastapi typing pydantic
 
 EXPOSE 8000
 
